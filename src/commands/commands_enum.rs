@@ -9,7 +9,7 @@ pub enum Commands {
     Start,
     #[command(description = "xiao language line of code.")]
     Cloc,
-    #[command(description = "send xiao language repo url.")]
+    #[command(description = "send xiao language repo info.")]
     Github,
     #[command(description = "send xiao language author info.")]
     Author,
