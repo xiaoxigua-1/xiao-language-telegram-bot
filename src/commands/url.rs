@@ -1,4 +1,4 @@
-use crate::{Cxt, reply};
+use crate::{Cxt};
 use teloxide::{RequestError};
 
 pub async fn github_url(cx: &Cxt) -> Result<(), RequestError> {

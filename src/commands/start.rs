@@ -1,4 +1,4 @@
-use crate::{Cxt, reply};
+use crate::{Cxt};
 use teloxide::{RequestError};
 
 pub async fn start(cx: &Cxt) -> Result<(), RequestError> {
