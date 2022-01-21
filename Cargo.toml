@@ -1,5 +1,5 @@
 [package]
-name = "telegram"
+name = "xiao_language_telegram_bot"
 version = "0.1.0"
 edition = "2021"
 

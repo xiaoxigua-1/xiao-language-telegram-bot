@@ -33,5 +33,5 @@ async fn main() {
     log::info!("Starting dices_bot...");
     let bot = Bot::from_env().auto_send();
 
-    teloxide::commands_repl(bot, "xiaoxigua", answer).await;
+    teloxide::commands_repl(bot, "xiaoLanguageBot", answer).await;
 }
