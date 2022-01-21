@@ -22,6 +22,8 @@ async fn answer(
         Commands::Help => help(&cx).await?,
         Commands::Start => start(&cx).await?,
         Commands::Cloc => cloc(&cx).await?,
+        Commands::Author => author_info(&cx).await?,
+        Commands::Github => github_url(&cx).await?
     };
 
     Ok(())
